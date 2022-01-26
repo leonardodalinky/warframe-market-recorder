@@ -1,0 +1,3 @@
+[submodule "warframe-items"]
+	path = warframe-items
+	url = git@github.com:WFCD/warframe-items.git

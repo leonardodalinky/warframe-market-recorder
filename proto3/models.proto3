@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+message Item {
+    int32 id = 1;
+    ItemCategory category = 2;
+    bool tradable = 3;
+    string type = 4;
+    string uniqueName = 6;
+}
+
+enum ItemCategory {
+    Arcanes = 0;
+    ArchGun = 1;
+    ArchMelee = 2;
+    Archwing = 3;
+    Enemy = 4;
+    Fish = 5;
+    Gear = 6;
+    Glyphs = 7;
+    Melee = 8;
+    Misc = 9;
+    Mods = 10;
+    Node = 11;
+    Pets = 12;
+    Primary = 13;
+    Quests = 14;
+    Relics = 15;
+    Resources = 16;
+    Secondary = 17;
+    Sentinels = 18;
+    SentinelWeapons = 19;
+    Sigils = 20;
+    Skins = 21;
+    Warframes = 22;
+}
